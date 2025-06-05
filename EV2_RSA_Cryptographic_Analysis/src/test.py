@@ -24,6 +24,7 @@ datos = [(4255963390139605915570905898509016491517,42597022942794842825467656195
 for a, b, mcd in datos:
     real_mcd = math.gcd(a, b)
     if real_mcd == mcd:
-        print(f"Correcto: MCD({a}, {b}) = {mcd}")
+        print(f"Correcto: MCD({a}, {b
+        }) = {mcd}")
     else:
         print(f"Incorrecto: MCD({a}, {b}) = {real_mcd}, pero tú tienes {mcd}")
